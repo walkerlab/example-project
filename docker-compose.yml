@@ -1,0 +1,6 @@
+services:
+  dev-container:
+    build: .
+    command: ["sleep", "infinity"]
+    volumes:
+      - ./:/src
